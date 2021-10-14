@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+
+/* -------Body------ */
+
+body{
+    background-color: rgba(44, 144, 148, 0.959)
+}
+
+/*------Header-------*/
+
+header{
+    background-color: rgb(122, 187, 128);
+}
+
+.container-top-header{
+    padding:10px;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 30vw;  
+}
+
+.img-logo{
+    width: 60%;   
+}
+
+li{
+    list-style-type: none;
+ } /*con esto quito que se vea como lista*/
+    
+ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.nav-bar{
+    display: none; /* oculto la etiqueta nav */
+  }
+
+/*--------Buscador----------*/
+.buscador{
+    width: 90%;
+    height: 2.5vh;
+    background-color: rgb(211, 211, 211);
+    margin: 10px 10px;
+   
+}
+
+.buscar-producto{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.buscar-producto input{
+    border:none;
+    width:100%;
+    font-size: 20px; 
+    border-radius: 5px;
+    align-content: center;
+}
+
+
+.buscar-producto boton-buscar {
+    position: absolute;
+    width: 55px;
+    top:0px;
+    right: 0px;
+    height: 40px;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.boton-buscar i{
+    font-size: 17px;
+}
+
+/*MAIN*/
+/*
+main{
+    width:95%;
+    margin:auto;
+    background-color:rgb(110, 70, 2);
+}*/
+
+/*-----Ofertas------*/
+
+.etiqueta-oferta{
+    width: 60%;
+}
+
+.titulo-ofertas{
+    background-color: rgb(20, 20, 19);
+    font-size: 30px;
+    border-radius: 10px;
+    color:white;
+    width:60%;
+    text-align: center;
+}
+
+.Ofertas{
+background-color: ivory;
+width: 100%;
+padding: 10px 10px;
+display:flex;
+justify-content: space-between;
+}
+
+.precios{
+    font-size:20px;
+}
+
+.descuentos{
+    font-size:16px;
+    color:#39b54a
+ }
+
+
+.descripciones{
+    font-size:16px;
+    font-weight: normal;
+    margin-top:1px;
+    display: none;
+ }
+
+
+
+.contenedor1{
+     width: 100%;
+    border-top: solid 1px #ebebeb; 
+    display: flex;
+    position: relative; 
+    flex-direction: column;
+    }
+    
+    
+main section article img{
+        /*width: 100%;*/
+        width: 100%;
+        height: 70%;
+        margin:auto;
+        border-radius: 15px;
+        display: block;
+    }
+
+
+    .fa-cart-plus {
+        color: #54e267;
+        display: block;
+        font-size: 25px;
+        padding: 5px;
+        width: 38px;
+        position: absolute;
+        right: 10px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ 
+article {
+    width: 60%;
+    justify-content: center;
+} 
+
+
+/*------Promociones--Cambie esta seccion por LO NUEVO O ESPECIAL DE ABEJAS---*/
+.Etiqueta-Especial-Abejas{
+    width: 60%;
+}
+
+.titulo-Especial-abejas{
+    background-color: rgba(243, 220, 11, 0.918);
+    font-size: 30px;
+    border-radius: 10px;
+    color:rgb(15, 15, 15);
+    width:60%;
+    text-align: center;
+}
+
+.Ofertas{
+background-color: ivory;
+width: 100%;
+padding: 10px 10px;
+display:flex;
+justify-content: space-between;
+}
+
+.precios{
+    font-size:20px;
+}
+
+.descuentos{
+    font-size:16px;
+    color:#39b54a
+ }
+
+
+.descripciones{
+    font-size:16px;
+    font-weight: normal;
+    margin-top:1px;
+    display: none;
+ }
+
+
+
+.contenedor1{
+     width: 100%;
+    border-top: solid 1px #ebebeb; 
+    display: flex;
+    position: relative; 
+    flex-direction: column;
+    }
+    
+    
+main section article img{
+        /*width: 100%;*/
+        width: 100%;
+        height: 70%;
+        margin:auto;
+        border-radius: 15px;
+        display: block;
+    }
+
+
+    .fa-cart-plus {
+        color: #54e267;
+        display: block;
+        font-size: 25px;
+        padding: 5px;
+        width: 38px;
+        position: absolute;
+        right: 10px;
+}
+
+.productos {
+    background-color: #5ab53961;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ 
+article {
+    width: 60%;
+    justify-content: center;
+} 
+  
+/*Imagenes al catalogo*/
+
+.Imagenes-al-catalogo{
+    background-color: white;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+/*en esta no pude lograr que las imagenes se vean bien del mismo tamaño*/
+.Imagenes-al-catalogo a img{
+    width: 100%;
+    padding: 10px;;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #c4a977;
+    text-align:center;
+    padding:30px 0;
+    width:100%;
+    margin: auto;
+    font-size: 25px;
+    }
+
+.fa-facebook-square{
+    color: #4036be;
+    
+}
+
+.fa-twitter-square{
+    color: #3c52ce;
+   
+}
+
+.fa-instagram-square{
+    color: #c735a7;
+    
+}
+
+.fa-whatsapp{
+    color: #198f29;
+    
+}
+
+.redes-sociales-padre{
+    background-color: white;
+    width: 30%;
+}
+
+
+@media (min-width:361px) {
+
+
+
+
+/*OJO PORQUE NO ME FUNCIONA SEGUIR PROBANDO..*/
+    main section article {
+    margin-bottom: 10px;
+    background-color: white;
+    position: relative;
+    width: 60%;
+    }
+
+}
+
+
+@media (min-width:769px) {
+
+.logo{
+    width: 15vw;  
+}
+    
+.img-logo{
+    width: 60%;   
+}
+
+/*----Nav-bar--- */
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+ }
+
+ ul li a {
+    text-decoration: none;
+    color: #fbf4f4;
+}
+li a {
+    margin: 7px;
+    font-size: 20px;
+    
+ }
+
+}
+/*----Login y registro----*/
+
+.flex-vertical-login-registro{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between ;
+
+    
+}
+
+.boton a{
+    color:white;
+   font-size: 20px;
+    
+}
+
+/*------BANNER------*/
+section.banner img{
+    width: 100%;
+    margin-top: 20px;
+    align-content: center;
+}
+
+/*Aqui jugar con porcentaje de width para adaptar el responsive*/
+/*
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}*/
+
+main section article {
+        
+    margin-bottom: 10px;
+    background-color: white;
+    
+    position: relative;
+    width: 20%;
+} 
+
+/*
+ article {
+    width: 15%;
+    justify-content: center;
+} */
+
+
+/* -----------1024----------*/
+
+@media (min-width: 1024px){
+    .logo{
+        width: 50%;  
+    }
+        
+    .img-logo{
+        width: 60%;   
+    }
+    
+    .top-header{
+       width: 100%;
+       height: 10vh;
+    }
+    /*----Nav-bar--- */
+    
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 15px;
+     }
+    
+     ul li a {
+        text-decoration: none;
+        color: #fbf4f4;
+    }
+    li a {
+        margin: 7px;
+        font-size: 30px;
+        
+     }
+    
+
+    /*----Login y registro----*/
+    
+    .flex-vertical-login-registro{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between ;
+    
+        
+    }
+    
+    .boton a{
+        color:white;
+       font-size: 20px;
+        
+    }
+}
+
+
+/*------1440----*/
+
+@media (min-width: 1440px){
+    .logo{
+        width: 30%;  
+    }
+        
+    .img-logo{
+        width: 30%;   
+    }
+
+}
+    
+
+/*-------2560------*/
+
+@media (min-width: 1440px){
+    .logo{
+        width: 10%;  
+    }
+        
+    .img-logo{
+        width: 10%;   
+    }
+}
